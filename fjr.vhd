@@ -30,6 +30,10 @@ begin
       elsif j = '1' and k = '1' then
         -- reset is off and count is on
           v := not v;
+      elsif j = '1' then
+          v := '1';
+      elsif k = '1' then
+          v := '0';
       end if;
     end if;
   end process;
