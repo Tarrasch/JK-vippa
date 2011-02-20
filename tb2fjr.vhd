@@ -27,7 +27,7 @@ begin
   );
 
   clk <= not clk after 100 ns;
-  reset <= '1', '0' after 350 ns;
+  reset <= '1', '0' after 250 ns;
 
   test : process
   begin
@@ -39,11 +39,10 @@ begin
       end if;
 
 
-      wait for 100 ns;
+      wait for 150 ns;
       if q /= '0' then
           testok <= '0';
       end if;
-      wait;
 
       j <= '1';
       wait for 200 ns;

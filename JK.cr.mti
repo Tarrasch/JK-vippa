@@ -1,4 +1,12 @@
-/chalmers/users/rarash/VHDL/JK-vippa/fjr.vhd {1 {vcom -work work -2002 -explicit -vopt /chalmers/users/rarash/VHDL/JK-vippa/fjr.vhd
+/chalmers/users/rarash/VHDL/JK-vippa/mypackage.vhd {1 {vcom -work work -2002 -explicit -vopt /chalmers/users/rarash/VHDL/JK-vippa/mypackage.vhd
+QuestaSim-64 vcom 6.5b Compiler 2009.05 May 21 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling package mypackage
+
+} {} {}} /chalmers/users/rarash/VHDL/JK-vippa/fjr.vhd {1 {vcom -work work -2002 -explicit -vopt /chalmers/users/rarash/VHDL/JK-vippa/fjr.vhd
 QuestaSim-64 vcom 6.5b Compiler 2009.05 May 21 2009
 -- Loading package standard
 -- Loading package std_logic_1164
@@ -6,13 +14,5 @@ QuestaSim-64 vcom 6.5b Compiler 2009.05 May 21 2009
 -- Loading package std_logic_unsigned
 -- Compiling entity fjr
 -- Compiling architecture myfjr of fjr
-
-} {} {}} /chalmers/users/rarash/VHDL/JK-vippa/mypackage.vhd {1 {vcom -work work -2002 -explicit -vopt /chalmers/users/rarash/VHDL/JK-vippa/mypackage.vhd
-QuestaSim-64 vcom 6.5b Compiler 2009.05 May 21 2009
--- Loading package standard
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package std_logic_unsigned
--- Compiling package mypackage
 
 } {} {}}

@@ -30,38 +30,6 @@ do tb2fjr.do
 # Loading ieee.std_logic_unsigned(body)
 # Loading work.mypackage
 # Loading work.tb2fjr(tb2fjr_bhv)#1
-# ** Error: (vish-4014) No objects found matching 'clk'.
-# (vish-4014) No objects found matching 'reset'.
-# (vish-4014) No objects found matching 'j'.
-# (vish-4014) No objects found matching 'k'.
-# Error in macro ./tb2fjr.do line 8
-# (vish-4014) No objects found matching 'clk'.
-# (vish-4014) No objects found matching 'reset'.
-# (vish-4014) No objects found matching 'j'.
-# (vish-4014) No objects found matching 'k'.
-#     while executing
-# "add wave clk reset j k q testok"
-do tb2fjr.do
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading std.standard
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.mypackage
-# Loading work.tb2fjr(tb2fjr_bhv)#1
-# Compile of fjr.vhd was successful.
-# Compile of mypackage.vhd was successful.
-# Compile of tb2fjr.vhd was successful.
-# 3 compiles, 0 failed with no errors. 
-do tb2fjr.do
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading std.standard
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.mypackage
-# Loading work.tb2fjr(tb2fjr_bhv)#1
-add wave sim:/tb2fjr/*
 # Compile of fjr.vhd was successful.
 # Compile of mypackage.vhd was successful.
 # Compile of tb2fjr.vhd was successful.
@@ -86,103 +54,6 @@ do tb2fjr.do
 # Loading ieee.std_logic_unsigned(body)
 # Loading work.mypackage
 # Loading work.tb2fjr(tb2fjr_bhv)#1
-# Compile of fjr.vhd was successful.
-# Compile of mypackage.vhd was successful.
-# Compile of tb2fjr.vhd was successful.
-# 3 compiles, 0 failed with no errors. 
-do tb2fjr.do
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading std.standard
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.mypackage
-# Loading work.tb2fjr(tb2fjr_bhv)#1
-# ** Error: (vish-4014) No objects found matching 'clk'.
-# (vish-4014) No objects found matching 'reset'.
-# (vish-4014) No objects found matching 'j'.
-# (vish-4014) No objects found matching 'k'.
-# Error in macro ./tb2fjr.do line 8
-# (vish-4014) No objects found matching 'clk'.
-# (vish-4014) No objects found matching 'reset'.
-# (vish-4014) No objects found matching 'j'.
-# (vish-4014) No objects found matching 'k'.
-#     while executing
-# "add wave clk reset j k q testok"
-# Compile of fjr.vhd was successful.
-# Compile of mypackage.vhd was successful.
-# Compile of tb2fjr.vhd was successful.
-# 3 compiles, 0 failed with no errors. 
-do tb2fjr.do
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading std.standard
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.mypackage
-# Loading work.tb2fjr(tb2fjr_bhv)#1
-# ** Error: (vish-4014) No objects found matching 'clk'.
-# (vish-4014) No objects found matching 'reset'.
-# (vish-4014) No objects found matching 'j'.
-# (vish-4014) No objects found matching 'k'.
-# Error in macro ./tb2fjr.do line 8
-# (vish-4014) No objects found matching 'clk'.
-# (vish-4014) No objects found matching 'reset'.
-# (vish-4014) No objects found matching 'j'.
-# (vish-4014) No objects found matching 'k'.
-#     while executing
-# "add wave clk reset j k q testok"
-vsim work.tb2fjr
-# vsim work.tb2fjr 
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading std.standard
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.mypackage
-# Loading work.tb2fjr(tb2fjr_bhv)#1
-# Compile of fjr.vhd failed with 1 errors.
-# Compile of mypackage.vhd was successful.
-# Compile of tb2fjr.vhd was successful.
-# 3 compiles, 1 failed with 1 error. 
-# Compile of fjr.vhd failed with 1 errors.
-# Compile of mypackage.vhd was successful.
-# Compile of tb2fjr.vhd was successful.
-# 3 compiles, 1 failed with 1 error. 
-# Compile of fjr.vhd was successful.
-# Compile of mypackage.vhd was successful.
-# Compile of tb2fjr.vhd was successful.
-# 3 compiles, 0 failed with no errors. 
-# Compile of fjr.vhd failed with 1 errors.
-# Compile of mypackage.vhd was successful.
-# Compile of tb2fjr.vhd was successful.
-# 3 compiles, 1 failed with 1 error. 
-# Compile of fjr.vhd was successful.
-# Compile of mypackage.vhd was successful.
-# Compile of tb2fjr.vhd was successful.
-# 3 compiles, 0 failed with no errors. 
-vsim work.tb2fjr
-# vsim work.tb2fjr 
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading std.standard
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.mypackage
-# Loading work.tb2fjr(tb2fjr_bhv)#1
-do tb2fjr.do
-# Compile of fjr.vhd was successful.
-# Compile of mypackage.vhd was successful.
-# Compile of tb2fjr.vhd was successful.
-# 3 compiles, 0 failed with no errors. 
-do tb2fjr.do
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading std.standard
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.mypackage
-# Loading work.tb2fjr(tb2fjr_bhv)#1
 do tb2fjr.do
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # Loading std.standard
@@ -195,14 +66,10 @@ do tb2fjr.do
 # Compile of mypackage.vhd was successful.
 # Compile of tb2fjr.vhd was successful.
 # 3 compiles, 0 failed with no errors. 
-do tb2fjr.do
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading std.standard
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.mypackage
-# Loading work.tb2fjr(tb2fjr_bhv)#1
+# Compile of fjr.vhd was successful.
+# Compile of mypackage.vhd was successful.
+# Compile of tb2fjr.vhd was successful.
+# 3 compiles, 0 failed with no errors. 
 do tb2fjr.do
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # Loading std.standard
