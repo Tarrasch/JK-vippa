@@ -6,4 +6,5 @@
 
 restart -f -nowave
 add wave clk reset j k q testok
-run 4000
+--add wave q testok
+run 2000

@@ -34,5 +34,6 @@ begin
           v := '0';
       end if;
     end if;
+    q <= v;
   end process;
 end architecture;

@@ -1,4 +1,5 @@
 -- Arash Rouhani
+-- 901117-1213
 -- cid: rarash
 -- inlamningsuppgift 3.2
 
@@ -28,7 +29,7 @@ begin
   clk <= not clk after 100 ns;
   reset <= '1', '0' after 350 ns;
 
-  process
+  test : process
   begin
       j <= '0';
       k <= '0';
@@ -51,14 +52,14 @@ begin
       end if;
 
       j <= '0';
-      q <= '1';
+      k <= '1';
       wait for 200 ns;
       if q /= '0' then
           testok <= '0';
       end if;
 
       j <= '1';
-      q <= '1';
+      k <= '1';
       wait for 200 ns;
       if q /= '1' then
           testok <= '0';
@@ -74,6 +75,7 @@ begin
           testok <= '0';
       end if;
 
+      wait;
   end process;
 end Architecture;
 
