@@ -1,3 +1,10 @@
+-- Arash Rouhani
+-- cid: rarash
+-- inlamningsuppgift 3.2
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_unsigned.all;
 
 entity fjr is
   port (
@@ -8,7 +15,7 @@ end entity;
 
 
 
-architecture mybcd23 of bcd23 is
+architecture myfjr of fjr is
 begin
   p0 : process(clk)
     variable v :std_logic;
@@ -19,10 +26,10 @@ begin
 
       if reset = '1' then
         -- reset is on
-          v = 0;
+          v := '0';
       elsif j = '1' and k = '1' then
         -- reset is off and count is on
-          v = not v;
+          v := not v;
       end if;
     end if;
   end process;
