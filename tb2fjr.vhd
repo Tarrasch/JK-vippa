@@ -12,12 +12,6 @@ port ( testok : OUT STD_LOGIC := 'H');
 end Entity;
 
 Architecture tb2fjr_bhv of tb2fjr is
-component fjr
-    port( 
-    clk, reset, j, k : IN std_logic;
-    q                : OUT std_logic
-        );
-end component;
   Signal clk   : STD_LOGIC := '0';
   Signal reset : STD_LOGIC := '1';
   Signal j,k   : STD_LOGIC;
@@ -32,11 +26,53 @@ begin
   );
 
   clk <= not clk after 100 ns;
-  reset <= '1', '0' after 425 ns;
+  reset <= '1', '0' after 350 ns;
 
   process
   begin
-    wait;
+      j <= '0';
+      k <= '0';
+      wait for 200 ns;
+      if q /= '0' then
+          testok <= '0';
+      end if;
+
+
+      wait for 100 ns;
+      if q /= '0' then
+          testok <= '0';
+      end if;
+      wait;
+
+      j <= '1';
+      wait for 200 ns;
+      if q /= '1' then
+          testok <= '0';
+      end if;
+
+      j <= '0';
+      q <= '1';
+      wait for 200 ns;
+      if q /= '0' then
+          testok <= '0';
+      end if;
+
+      j <= '1';
+      q <= '1';
+      wait for 200 ns;
+      if q /= '1' then
+          testok <= '0';
+      end if;
+
+      wait for 200 ns;
+      if q /= '0' then
+          testok <= '0';
+      end if;
+
+      wait for 200 ns;
+      if q /= '1' then
+          testok <= '0';
+      end if;
 
   end process;
 end Architecture;

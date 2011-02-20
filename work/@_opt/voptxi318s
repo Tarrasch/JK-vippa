@@ -4,9 +4,9 @@ K3
 cModel Technology
 Z0 d/chalmers/users/rarash/VHDL
 T_opt
-Z1 V23^g`3Q=H5Ug[UMDo^>2@0
+Z1 V[n<34olj0]kOPJ=aW>[BS1
 Z2 04 6 10 work tb2fjr tb2fjr_bhv 1
-Z3 =1-0013d32bab3a-4d615fd3-8e393-1587
+Z3 =2-0013d32bab3a-4d6167b5-b4382-2ee5
 Z4 o-quiet -auto_acc_if_foreign -work work
 Z5 n@_opt
 Z6 OL;O;6.5b;42
@@ -47,53 +47,53 @@ Z25 DPx17 __model_tech/ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
 Z26 DPx17 __model_tech/ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
 Z27 DPx17 __model_tech/ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
 32
-Mx3 17 __model_tech/ieee 14 std_logic_1164
-Mx2 17 __model_tech/ieee 18 std_logic_unsigned
-Mx1 17 __model_tech/ieee 15 std_logic_arith
-Z28 w1298225286
+Z28 Mx3 17 __model_tech/ieee 14 std_logic_1164
+Z29 Mx2 17 __model_tech/ieee 18 std_logic_unsigned
+Z30 Mx1 17 __model_tech/ieee 15 std_logic_arith
+Z31 w1298225286
 R11
-Z29 8/chalmers/users/rarash/VHDL/JK-vippa/mypackage.vhd
-Z30 F/chalmers/users/rarash/VHDL/JK-vippa/mypackage.vhd
+Z32 8/chalmers/users/rarash/VHDL/JK-vippa/mypackage.vhd
+Z33 F/chalmers/users/rarash/VHDL/JK-vippa/mypackage.vhd
 l0
 L10
-Z31 V?ACjg;8W;`_ZbEVa[Sb[N2
+Z34 V?ACjg;8W;`_ZbEVa[Sb[N2
 R15
 R16
 R17
-Z32 !s100 A[bChJRo2[LOz8gWQS9lj3
+Z35 !s100 A[bChJRo2[LOz8gWQS9lj3
 Etb2fjr
-Z33 w1298227106
-Z34 DPx41 /chalmers/users/rarash/VHDL/JK-vippa/work 9 mypackage 0 22 ?ACjg;8W;`_ZbEVa[Sb[N2
-R25
-R26
-R27
-32
+Z36 w1298229033
+Z37 DPx4 work 9 mypackage 0 22 ?ACjg;8W;`_ZbEVa[Sb[N2
+R8
+R9
+R10
 R11
-Z35 8/chalmers/users/rarash/VHDL/JK-vippa/tb2fjr.vhd
-Z36 F/chalmers/users/rarash/VHDL/JK-vippa/tb2fjr.vhd
+Z38 8/chalmers/users/rarash/VHDL/JK-vippa/tb2fjr.vhd
+Z39 F/chalmers/users/rarash/VHDL/JK-vippa/tb2fjr.vhd
 l0
 L10
-Z37 V<oaQ9lACVZ4TOzN<?EB9a2
+Z40 V<oaQ9lACVZ4TOzN<?EB9a2
 R15
+32
 R16
 R17
-Z38 !s100 <N;nJzooS:Yh<m@[jDSY20
+Z41 !s100 <N;nJzooS:Yh<m@[jDSY20
 Atb2fjr_bhv
-DEx41 /chalmers/users/rarash/VHDL/JK-vippa/work 3 fjr 0 22 9:Nfbd4ERdR<JEfL@CknP0
-R34
+Z42 DEx41 /chalmers/users/rarash/VHDL/JK-vippa/work 3 fjr 0 22 9:Nfbd4ERdR<JEfL@CknP0
+Z43 DPx41 /chalmers/users/rarash/VHDL/JK-vippa/work 9 mypackage 0 22 ?ACjg;8W;`_ZbEVa[Sb[N2
 R25
 R26
 R27
-DEx41 /chalmers/users/rarash/VHDL/JK-vippa/work 6 tb2fjr 0 22 <oaQ9lACVZ4TOzN<?EB9a2
+Z44 DEx41 /chalmers/users/rarash/VHDL/JK-vippa/work 6 tb2fjr 0 22 <oaQ9lACVZ4TOzN<?EB9a2
 32
-Mx4 17 __model_tech/ieee 14 std_logic_1164
-Mx3 17 __model_tech/ieee 18 std_logic_unsigned
-Mx2 17 __model_tech/ieee 15 std_logic_arith
-Mx1 41 /chalmers/users/rarash/VHDL/JK-vippa/work 9 mypackage
-l26
+Z45 Mx4 17 __model_tech/ieee 14 std_logic_1164
+Z46 Mx3 17 __model_tech/ieee 18 std_logic_unsigned
+Z47 Mx2 17 __model_tech/ieee 15 std_logic_arith
+Z48 Mx1 41 /chalmers/users/rarash/VHDL/JK-vippa/work 9 mypackage
+l19
 L14
-Z39 VT=@;:43z<ZMZ@a`ZcTAe^0
+Z49 V8ERdZE<3=`8CGX1P27To@2
 R15
 R16
 R17
-Z40 !s100 JAgO2g2PUOezGU`aXo<G;1
+Z50 !s100 Omi@j@2THJE<FOZA3>CSV2
