@@ -19,3 +19,10 @@
 # Compile of fjr.vhd was successful.
 # Compile of fjr.vhd failed with 1 errors.
 # Compile of fjr.vhd was successful.
+# Compile of fjr.vhd was successful.
+# Compile of mypackage.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+# Compile of fjr.vhd was successful.
+# Compile of mypackage.vhd was successful.
+# Compile of tb2fjr.vhd was successful with warnings.
+# 3 compiles, 0 failed with no errors. 
