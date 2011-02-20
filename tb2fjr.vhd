@@ -18,7 +18,6 @@ component fjr
     q                : OUT std_logic
         );
 end component;
-
   Signal clk   : STD_LOGIC := '0';
   Signal reset : STD_LOGIC := '1';
   Signal j,k   : STD_LOGIC;
@@ -37,7 +36,7 @@ begin
 
   process
   begin
-
+    wait;
 
   end process;
 end Architecture;

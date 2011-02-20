@@ -26,3 +26,103 @@
 # Compile of mypackage.vhd was successful.
 # Compile of tb2fjr.vhd was successful with warnings.
 # 3 compiles, 0 failed with no errors. 
+# Compile of fjr.vhd was successful.
+# Compile of mypackage.vhd was successful.
+# Compile of tb2fjr.vhd was successful with warnings.
+# 3 compiles, 0 failed with no errors. 
+# Compile of fjr.vhd was successful.
+# Compile of mypackage.vhd was successful.
+# Compile of tb2fjr.vhd was successful.
+# 3 compiles, 0 failed with no errors. 
+do tb2fjr.do
+# ** Error: No Design Loaded!
+# Error in macro ./tb2fjr.do line 7
+# No Design Loaded!
+#     while executing
+# "restartCmd -f -nowave"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval restartCmd $args"
+#     (procedure "restart" line 14)
+#     invoked from within
+# "restart -f -nowave"
+vsim work.tb2fjr
+# vsim work.tb2fjr 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mypackage
+# Loading work.tb2fjr(tb2fjr_bhv)#1
+do tb2fjr.do
+# ** Error: (vish-4014) No objects found matching 'clk'.
+# (vish-4014) No objects found matching 'reset'.
+# (vish-4014) No objects found matching 'j'.
+# (vish-4014) No objects found matching 'k'.
+# (vish-4014) No objects found matching 'q'.
+# Error in macro ./tb2fjr.do line 8
+# (vish-4014) No objects found matching 'clk'.
+# (vish-4014) No objects found matching 'reset'.
+# (vish-4014) No objects found matching 'j'.
+# (vish-4014) No objects found matching 'k'.
+# (vish-4014) No objects found matching 'q'.
+#     while executing
+# "add wave clk reset j k q "
+do tb2fjr.do
+# ** Error: (vish-4014) No objects found matching 'clk'.
+# (vish-4014) No objects found matching 'reset'.
+# (vish-4014) No objects found matching 'j'.
+# (vish-4014) No objects found matching 'k'.
+# (vish-4014) No objects found matching 'q'.
+# Error in macro ./tb2fjr.do line 8
+# (vish-4014) No objects found matching 'clk'.
+# (vish-4014) No objects found matching 'reset'.
+# (vish-4014) No objects found matching 'j'.
+# (vish-4014) No objects found matching 'k'.
+# (vish-4014) No objects found matching 'q'.
+#     while executing
+# "add wave clk reset j k q "
+# Load canceled
+vsim work.tb2fjr
+# vsim work.tb2fjr 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mypackage
+# Loading work.tb2fjr(tb2fjr_bhv)#1
+do tb2fjr.do
+# ** Error: (vish-4014) No objects found matching 'clk'.
+# (vish-4014) No objects found matching 'reset'.
+# (vish-4014) No objects found matching 'j'.
+# (vish-4014) No objects found matching 'k'.
+# (vish-4014) No objects found matching 'q'.
+# Error in macro ./tb2fjr.do line 8
+# (vish-4014) No objects found matching 'clk'.
+# (vish-4014) No objects found matching 'reset'.
+# (vish-4014) No objects found matching 'j'.
+# (vish-4014) No objects found matching 'k'.
+# (vish-4014) No objects found matching 'q'.
+#     while executing
+# "add wave clk reset j k q testok"
+# Compile of fjr.vhd was successful.
+# Compile of mypackage.vhd was successful.
+# Compile of tb2fjr.vhd was successful.
+# 3 compiles, 0 failed with no errors. 
+vsim work.tb2fjr
+# vsim work.tb2fjr 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mypackage
+# Loading work.tb2fjr(tb2fjr_bhv)#1
+vsim work.tb2fjr(tb2fjr_bhv)
+# vsim work.tb2fjr(tb2fjr_bhv) 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mypackage
+# Loading work.tb2fjr(tb2fjr_bhv)#1
